@@ -1,0 +1,253 @@
+.contactSection_container{
+    background-color: #0B1D31;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+    h1{
+        color: #eab308;
+        font-size: 40px;
+    }
+}
+
+.contactFirst{
+    padding:3rem;
+}
+
+.contactDetail{
+    
+    ul{
+        padding-left: 2.5rem;
+    }
+
+    li{
+        font-size: 22px;
+        list-style: circle;
+        font-weight: lighter;
+        padding-top: 1rem;
+    }
+    
+}
+
+.contact_socialMedia{
+    padding-top: 2rem;
+}
+
+.contact_socialMedia ul{
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+    
+}
+
+.contact_socialMedia a{
+    font-size: 2.5rem;
+}
+
+.formContainer{
+    padding-top: 3rem;
+
+    p{
+        font-size: 26px;
+        font-weight: lighter;
+    }
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    margin-top: 0.7rem;
+    background-color: #9da5ad;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+textarea{
+    width: 90%;
+    height: 300px;
+    margin-top: 0.7rem;
+    background-color: #9da5ad;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+}
+
+
+.name, .email, .detail{
+    padding-top: 1rem;
+}
+
+button{
+    background-color: #eab308;
+    color: black;
+    border-radius: 6px;
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover {
+    border: 2px solid #000000;
+}
+
+button:active {
+    box-shadow: 0 5px #eab308;
+    transform: translateY(4px);
+}
+
+
+.sendButton{
+    text-align: center;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 900px){
+    .contactSection_container{
+        display: block;
+        
+    
+        h1{
+            color: #eab308;
+            font-size: 35px;
+        }
+    }
+    .contactFirst{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+
+    .contact_socialMedia{
+        padding-top: 0;
+        padding-left: 3rem;
+    }
+
+    .formContainer{
+        padding-top: 3rem;
+        padding-left: 2rem;
+    
+        p{
+            font-size: 20px;
+            font-weight: lighter;
+        }
+    }
+    input{
+        width: 90%;
+        height: 18px;
+        font-size: 16px;
+    }
+    textarea{
+        font-size: 16px;
+        width: 90%;
+        height: 250px;
+    }
+
+    .contactDetail{
+    
+        ul{
+            padding-left: 2.5rem;
+        }
+    
+        li{
+            font-size: 20px;
+            list-style: circle;
+            font-weight: lighter;
+            padding-top: 1rem;
+        }
+        
+    }
+    
+    .sendButton{
+        text-align: center;
+        margin-right: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+    }
+}
+
+@media(max-width: 500px){
+    .contactSection_container{
+        display: block;
+        
+    
+        h1{
+            color: #eab308;
+            font-size: 26px;
+        }
+    }
+    .contactFirst{
+        display: block;
+        gap: 4rem;
+        padding: 0;
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+    .contactDetail{
+
+        ul{
+            padding-left: 2.5rem;
+        }
+    
+        li{
+            font-size: 18px;
+            list-style: circle;
+            font-weight: lighter;
+            padding-top: 1rem;
+        }
+        
+    }
+    
+
+    .contact_socialMedia{
+        padding-top: 2rem;
+        padding-left: 0;
+    }
+
+    .contact_socialMedia ul{
+        display: flex;
+        gap: 1.5rem;
+        padding-top: 1rem;
+        
+    }
+
+    .contact_socialMedia a{
+        font-size: 2rem;
+    }
+
+    .formContainer{
+        padding-top: 1rem;
+        padding-left: 1rem;
+    
+        p{
+            font-size: 20px;
+            font-weight: lighter;
+        }
+    }
+    input{
+        width: 90%;
+        height: 15px;
+        font-size: 16px;
+    }
+    textarea{
+        font-size: 16px;
+        width: 90%;
+        height: 250px;
+    }
+
+    
+    .sendButton{
+        margin-right: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+        padding-bottom: 2rem;
+    }
+}

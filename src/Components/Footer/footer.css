@@ -1,0 +1,152 @@
+footer{
+    border-top: 1px solid #EAB308;
+    background-color: #111827;
+}
+.top-footer{
+    text-align: center;
+    h1{
+        padding-top: 1.5rem;
+    }
+
+    p{
+        padding-top: 1rem;
+        font-size: 18px;
+    }
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-top: 2rem;
+}
+
+.footer-nav ul li a.active{
+    border-bottom: 1px solid #EAB308;
+    color: #EAB308;
+}
+
+.socialMedia-footer ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    padding-top: 4rem;
+
+}
+
+.socialMedia-footer{
+    font-size: 2.5rem;
+
+        a{
+            color: #EAB308;
+            background-color: #111827;
+        }
+}
+
+.bottom-footer{
+    border-top: 1px solid #EAB308;
+
+    ul{
+        display: flex;
+        padding: 10px;
+        justify-content: space-evenly;
+        gap: 1rem;
+
+        li{
+            font-size: 16px;
+            color: #EAB308;
+        }
+    }   
+}
+
+.footer-nav nav ul li a.active{
+    color: #EAB308;
+}
+
+
+
+@media(max-width: 900px){
+    .top-footer{
+        p{
+            margin: 0 auto;
+            padding-top: 1rem;
+            font-size: 18px;
+            width: 80%;
+        }
+    }
+
+    .footer-nav ul{
+        padding-top: 4rem;
+    }
+
+    .socialMedia-footer ul{
+        padding-top: 2rem;
+    }
+}
+
+@media(max-width: 420px){
+    .top-footer{
+        text-align:start;
+        padding-top: 1.5rem;
+
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+        h1{
+            padding-top: 0rem;
+            font-size: 26px;
+            padding-left: 0.5rem;
+        }
+    
+        p{
+            padding-top: 0.5rem;
+            font-size: 14px;
+            margin: 0;
+            padding-left: 0.5rem;
+        }
+    }
+
+
+
+    .footer-nav nav ul{
+        display: block;
+        padding-top: 0.5rem;
+        text-align: center;
+    }
+
+    .socialMedia-footer ul{
+        gap: 1rem;
+        padding-top: 0;
+    
+    }
+
+    .socialMedia-footer{
+        font-size: 1.5rem;
+    
+            a{
+                color: #EAB308;
+                background-color: #111827;
+            }
+
+            ul{
+                padding-top: 1rem;
+            }
+    }
+
+    .bottom-footer{
+        border-top: 1px solid #EAB308;
+    
+        ul{
+            display: flex;
+            padding: 10px;
+            justify-content: space-evenly;
+            gap: 1.2rem;
+    
+            li{
+                font-size: 14px;
+                color: #EAB308;
+            }
+        }   
+    }
+}

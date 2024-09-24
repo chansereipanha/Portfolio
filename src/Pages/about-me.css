@@ -1,0 +1,109 @@
+.experienceSection-container{
+    background-color: #111827;
+    height: 900px;
+
+    .viewButton{
+        display: none;
+    }
+}
+
+
+.experienceSection-title{
+    text-align:  center;
+    
+    h1{
+        color: #eab308;
+        font-size: 40px ;
+        padding-top: 4rem;
+    }
+}
+
+.experienceSection-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10rem;
+}
+
+
+.bannerTitle{
+    color: #eab308;
+    font-size: 28px ;
+    text-align: left;
+}
+
+.bannerText{
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    padding-top: 1rem;
+}
+
+
+
+@media(max-width: 900px){
+    .experienceSection-container{
+        background-color: #111827;
+        height: 1500px;
+    
+    }
+    .experienceSection-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 100px;
+        padding-top: 5rem;
+    }
+
+    .thirdBanner{
+        display: none;
+    }
+}
+
+@media(max-width: 420px){
+    .experienceSection-container{
+        background-color: #111827;
+        height: 1200px;
+    
+    }
+
+    .experienceSection-title h1{
+            font-size: 26px ;
+            padding-top: 3rem;
+    }
+    
+    .experienceSection-main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 100px;
+        padding-top: 5rem;
+    }
+
+    .banner-container{
+        background-color: #102439;
+        padding: 1rem;
+        text-align: center;
+        width: 70%;
+        height: 100%;
+        margin: 0 auto;
+        align-items: center;
+    
+    }
+    
+    .bannerMain{
+        width: 100%;
+    }
+
+    .bannerTitle{
+        color: #eab308;
+        font-size: 24px ;
+    }
+
+    .bannerText{
+        font-size: 16px;
+        width: 100%;
+        text-align: left;
+        padding-top: 1rem;
+    }
+
+}
